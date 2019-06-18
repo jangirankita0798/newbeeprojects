@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Register</title>
+	</head>
+	<body>
+		<form method="GET">
+			<h2 style="text-align: center;">Registration for Postgraduate Courses</h2>
+			First Name: <input type="text" required name="firstname"><br><br>
+			Last Name: <input type="text" required name="lastname"><br><br>
+			Email: <input type="email" required name="email"><br><br>
+			Password: <input type="password" required name="password" min="5"><br><br>
+			Marks Obtained in Graduation: <input type="text" required name="marks"><br><br>
+			Date of Birth: <input type="date" required name="birthday"><br><br>
+			Select Course: <br>
+			<select required name="course">
+				<option value="mtech" name="mtechre">M.Tech in Renewable Energy</option>
+				<option value="mtech" name="mtechcse">M.Tech Computer Science & Engineering</option>
+				<option value="mtech" name="mtechvlsi">M.Tech VLSI Design</option>
+				<option value="mtech" name="mtechnst">M.Tech Nuclear Science and Technology</option>
+				<option value="mtech" name="mca">MCA Regular and Lateral Entry to Second Year</option>
+			</select><br><br>
+			<input type="submit" value="Register">
+			<input type="reset">
+		</form>
+	</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Register</title>
+	</head>
+	<body>
+		<form method="GET">
+			<h2 style="text-align: center;">Registration for Undergraduate Courses</h2>
+			First Name: <input type="text" required name="firstname"><br><br>
+			Last Name: <input type="text" required name="lastname"><br><br>
+			Email: <input type="email" required name="email"><br><br>
+			Password: <input type="password" required name="password" min="5"><br><br>
+			Select Board: <br>
+			<input type="radio" name="board">State Board<br>
+			<input type="radio" name="board">Central Board<br>
+			<br>
+			Marks Obtained in Board: <input type="text" required name="marks"><br><br>
+			Date of Birth: <input type="date" required name="birthday"><br><br>
+			Select Course: <br>
+			<select required name="course">
+				<option value="btech" name="btechAI">B.Tech(CSE- Specialized-Artificial Intelligence and Deep Learning)</option>
+				<option value="btech" name="btechcse">B.Tech in Computer Science and Technology(CSE)</option>
+				<option value="btech" name="btechece">B.Tech in Electronics and Communication Engineering (ECE)</option>
+				<option value="btech" name="btechme">B.Tech in Mechanical Engineering (ME)</option>
+				<option value="btech" name="btechee">B.Tech in Electrical Engineering (EE)</option>
+				<option value="btech" name="bca">BCA (Bachelor of Computer Applications)</option>
+			</select><br><br>
+			<input type="submit" value="Register">
+			<input type="reset">
+		</form>
+	</body>
+</html>
